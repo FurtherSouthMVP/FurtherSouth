@@ -21,7 +21,7 @@ const direction = side === "right" ? "sm:flex-row-reverse" : "sm:flex-row";
 ---
 
 <div
-  class={`my-8 flex flex-col gap-4 ${direction} sm:items-center ${className}`}
+  class={`my-8 flex flex-col items-center gap-4 ${direction} ${className}`}
 >
   <Image
     src={src}
@@ -29,11 +29,10 @@ const direction = side === "right" ? "sm:flex-row-reverse" : "sm:flex-row";
     width={width}
     height={height}
     densities={[1, 1.5, 2]}
-    class={`not-prose shrink-0 rounded object-cover`}
-    style={`width:${width}px;height:auto`}
+    class="not-prose shrink-0 rounded object-cover self-center"
+    style={`width:${width}px;height:auto;`}
   />
-  <!-- Let the page's outer .prose style this content -->
-  <div class="[&>p]:my-0">
+  <div class="text-center [&>p]:my-0">
     <slot />
   </div>
 </div>
