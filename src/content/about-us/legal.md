@@ -28,7 +28,7 @@ Minor infractions may result in warnings before any further action is taken. We 
 
 Behaviour that would normally be disallowed may be permitted if scheduled in advance to ensure that all those present are in agreement.
 
-**Rule 1** – The venue also has rules and regulations, and these must be followed at all times on the site, as must those rules of other locations visited during the period of the convention. Rule content and contact details for enquiries can be found on the [hotel website](https://www.marriott.com/en-gb/hotels/pmeha-portsmouth-marriott-hotel/overview/).
+**Rule 1** – The venue also has rules and regulations, and these must be followed at all times on the site, as must those rules of other locations visited during the period of the convention. Rule content and contact details for enquiries can be found on the [hotel website](https://www.hiportsmouthhotel.co.uk/).
 
 Replica weapons that look too similar to the real thing as to cause confusion will not be allowed, other props must follow Rule 0 and not be a nuisance to other guests. [staff@furthersouth.uk](mailto:staff@furthersouth.uk) can be contacted to confirm any specific items. Items not allowed will be held for safe-keeping until the end of the event.
 
