@@ -5,7 +5,7 @@ sortIndex: -1
 
 As a conference hotel based furry convention, Further South has the activities you might expect:
 
-We will be hosting a fursuit changing area, ready for you to suit up and shuffle your giant carpet costumes slowly around the hotel corridors, or run around the neighbouring park chasing sticks, depending on your preference.
+We will be hosting a fursuit changing area, ready for you to suit up and show off your sonas around the hotel corridors, or run around the neighbouring park chasing sticks, depending on your preference.
 
 The main stage will be set up to host events to a large audience, including performances and evening musics. We will also be setting aside a number of slots on the four day long schedule to host your proposed panels, lectures, discussion groups, niche interest gatherings and more. Applications will open soon for submitting your events to host or performances to take to our stage, or send in ideas of things you would like to see, that other people might be able to run.
 
