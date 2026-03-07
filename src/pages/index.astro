@@ -5,6 +5,7 @@ import { Image } from "astro:assets";
 import background from "@assets/background.png";
 import { Palette, Calendar, Info } from "lucide-astro";
 import RegisterButton from "../components/RegisterButton.astro";
+import SpecialButton from "../components/SpecialButton.astro";
 ---
 
 <Layout title="Further South">
@@ -27,10 +28,13 @@ import RegisterButton from "../components/RegisterButton.astro";
       <h2 class="dates">March 6th-9th - Holiday Inn, Portsmouth</h2>
 
       <b>
-        Registration closes at the <u>end of Februrary</u>, register below while
-        you still can!</b
-      >
-      <RegisterButton />
+        Registration has closed, if you missed out, catch us next year! (dates
+        to be announced)
+      </b>
+      <SpecialButton
+        text={"Events Schedule"}
+        href={"https://furthersouth.uk/activities/panels/"}
+      />
 
       <div class="highlights" aria-label="Convention highlights">
         <a href="/activities/marketplace/" class="highlight-button">
