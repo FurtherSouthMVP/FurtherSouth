@@ -12,6 +12,12 @@ const pageTitle = title ? `${title} | ${site.name}` : site.name;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap"
+    />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
@@ -54,25 +60,3 @@ const pageTitle = title ? `${title} | ${site.name}` : site.name;
     window.addEventListener("scroll", update, { passive: true });
   })();
 </script>
-
-<style>
-  /* --- Fonts (safe to @import in a page or move to a global CSS if you prefer) --- */
-  @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap");
-
-  /* --- Theme tokens (tweak these to match branding exactly) --- */
-  :root {
-    --sand: #f8e7c7;
-    --sea-50: #e6f7ff;
-    --sea-300: #60a5fa;
-    --sea-500: #0ea5e9; /* primary ocean */
-    --deep-sea: #0b3a7e;
-    --coral: #ff7a59; /* accent */
-    --palm: #10b981; /* secondary accent */
-    --sun: #f59e0b; /* dates + sunny highlights */
-    --ink: #064e3b; /* body text in card */
-    --glass: rgba(255, 255, 255, 0.72);
-    --glass-border: rgba(255, 255, 255, 0.45);
-    --shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
-    --radius-lg: 1.25rem;
-  }
-</style>
