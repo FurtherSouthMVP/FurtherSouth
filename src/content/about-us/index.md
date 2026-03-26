@@ -7,7 +7,7 @@ The original idea for Further South, as a lower budget hotel based furry convent
 
 The volunteer team that runs Further South comes from a wide variety of backgrounds and levels of experience, all drawn together by an eagerness to make this idea work. As well, we have liased extensively with the creators of many other, bigger and longer established conventions and brought on board their expertise. Our venue agent has worked with over 20 different furcons worldwide, while our ticket sales processors have provided their skills to around 50. As well as this, though, we always have space and opportunities for new people to join the team, if they are eager to get started in furry events staffing.
 
-Our main goal here is to create a regular, normal furry convention, all the activities and amenities you would expect, if on a slightly small scale for now, but down in the south, and at a bit more friendly of a budget for our attendees. So far, our 2025 trial event has gone well, and things are picking up nicely for 2026.
+Our main goal here is to create a regular, normal furry convention, all the activities and amenities you would expect, if on a slightly small scale for now, but down in the south, and at a bit more friendly of a budget for our attendees. So far, our 2025 trial event went well, with our 2026 event boasting even more attendees and effort!
 
 ## Location
 
@@ -17,4 +17,4 @@ Hosted at the Holiday Inn in the heart of Portsmouth, only minutes from the sea,
 
 ## Dates
 
-Celeberate the start of spring with us on the **6th of March**, with the convention coming to and end on the **9th of March**
+Celeberate the start of spring with us on the **5th of March**, with the convention coming to and end on the **8th of March**. See you in 2027!
