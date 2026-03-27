@@ -8,23 +8,42 @@ import SpecialButton from "../components/SpecialButton.astro";
 ---
 
 <Layout title="Further South">
-  <section class="hero">
-    <h1>🌊<span class="title-text">Further South</span>🦊</h1>
-    <div class="hero-image" aria-hidden="true">
-      <Image src={background} alt="Further South Mascot" layout="full-width" />
+  <section
+    class="flex min-h-screen w-full flex-col items-center bg-gradient-to-b from-[#a7f3d0] via-[#60a5fa] to-[#1e3a8a] px-5 pb-12 pt-8"
+  >
+    <h1
+      class="mb-1 inline-block animate-bob whitespace-normal break-words bg-gradient-to-r from-sea-500 to-palm bg-clip-text text-center font-pacifico text-[clamp(1.5rem,8vw,5.5rem)] tracking-[clamp(2px,0.8vw,8px)] text-transparent [text-shadow:0_0_3px_rgba(0,0,0,0.4),0_2px_6px_rgba(0,0,0,0.3)] motion-reduce:animate-none"
+    >
+      🌊<span class="[-webkit-text-stroke:0.5px_white]">Further South</span>🦊
+    </h1>
+    <div class="mb-4 mt-8 w-full max-w-[1400px]" aria-hidden="true">
+      <Image
+        src={background}
+        alt="Further South Mascot"
+        layout="full-width"
+        class="h-auto w-full rounded-[1.25rem] shadow-card"
+      />
     </div>
 
-    <div class="info">
-      <p class="lede">
+    <div
+      class="mt-4 w-full max-w-[1100px] rounded-[1.25rem] border-2 border-[rgba(255,255,255,0.45)] bg-[linear-gradient(135deg,rgba(255,255,255,0.72),rgba(255,255,255,0.55))] p-[clamp(1.5rem,4vw,3rem)] text-center font-quicksand leading-[1.8] text-ink-card shadow-card backdrop-blur-[10px] [-webkit-backdrop-filter:blur(10px)]"
+    >
+      <p
+        class="mx-auto mb-2 mt-2 max-w-[70ch] text-[clamp(1.1rem,2.4vw,1.35rem)] font-semibold"
+      >
         <b> Further South </b> is a small, cosy, up-and-coming furry convention;
         celebrating the community, art, and talent within the fandom!
       </p>
-      <p>
+      <p class="mx-auto mt-2 max-w-[78ch]">
         Hosted in the heart of Portsmouth, where historic docks meet rolling
         waves and golden sunsets. Join us for our third year running and come
         make it down further south!
       </p>
-      <h2 class="dates">March 5th-8th 2027- Holiday Inn, Portsmouth</h2>
+      <h2
+        class="mb-1 mt-4 font-pacifico text-[clamp(1.5rem,3vw,2rem)] font-bold text-sun [text-shadow:0_0_1px_black]"
+      >
+        March 5th-8th 2027- Holiday Inn, Portsmouth
+      </h2>
 
       <b>
         Registration will open soon for 2027, keep an eye on this space and our
@@ -35,203 +54,29 @@ import SpecialButton from "../components/SpecialButton.astro";
         href={"https://furthersouth.uk/about-us/find-us/"}
       />
 
-      <div class="highlights" aria-label="Convention highlights">
-        <a href="/activities/marketplace/" class="highlight-button">
-          <Palette class="icon" /> Dealers Den & Art Panels
+      <div
+        class="mx-auto mt-8 grid max-w-[800px] grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-2 p-0 max-[900px]:grid-cols-1"
+        aria-label="Convention highlights"
+      >
+        <a
+          href="/activities/marketplace/"
+          class="mx-auto my-1 flex w-fit min-w-[15rem] items-center justify-center gap-2 rounded-full border border-[rgba(255,255,255,0.45)] bg-white/50 px-3 py-2 text-[0.95rem] font-semibold text-ink-card no-underline shadow-highlight transition-[transform,background] duration-150 ease-in-out hover:-translate-y-px hover:bg-white/70 active:translate-y-px"
+        >
+          <Palette class="h-[18px] w-[18px] text-sea-500" /> Dealers Den & Art Panels
         </a>
-        <a href="/about-us/join-the-team/" class="highlight-button">
-          <Calendar class="icon" /> Volunteer as Staff
+        <a
+          href="/about-us/join-the-team/"
+          class="mx-auto my-1 flex w-fit min-w-[15rem] items-center justify-center gap-2 rounded-full border border-[rgba(255,255,255,0.45)] bg-white/50 px-3 py-2 text-[0.95rem] font-semibold text-ink-card no-underline shadow-highlight transition-[transform,background] duration-150 ease-in-out hover:-translate-y-px hover:bg-white/70 active:translate-y-px"
+        >
+          <Calendar class="h-[18px] w-[18px] text-sea-500" /> Volunteer as Staff
         </a>
-        <a href="/about-us/" class="highlight-button">
-          <Info class="icon" /> About the Convention
+        <a
+          href="/about-us/"
+          class="mx-auto my-1 flex w-fit min-w-[15rem] items-center justify-center gap-2 rounded-full border border-[rgba(255,255,255,0.45)] bg-white/50 px-3 py-2 text-[0.95rem] font-semibold text-ink-card no-underline shadow-highlight transition-[transform,background] duration-150 ease-in-out hover:-translate-y-px hover:bg-white/70 active:translate-y-px"
+        >
+          <Info class="h-[18px] w-[18px] text-sea-500" /> About the Convention
         </a>
       </div>
     </div>
   </section>
 </Layout>
-
-<style>
-  /* --- Page hero --- */
-  .hero {
-    min-height: 100vh;
-    width: 100%;
-    background: linear-gradient(
-      to bottom,
-      #a7f3d0 0%,
-      #60a5fa 50%,
-      #1e3a8a 100%
-    );
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1.25rem 3rem;
-  }
-
-  .hero-image {
-    width: 100%;
-    margin: 2rem 0 1rem;
-    max-width: 1400px;
-  }
-
-  .hero-image img {
-    width: 100%;
-    height: auto;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
-  }
-
-  /* --- Title --- */
-  h1 {
-    font-family: "Pacifico", cursive;
-    font-size: clamp(1.5rem, 8vw, 5.5rem);
-    letter-spacing: clamp(2px, 0.8vw, 8px);
-    margin: 0 0 0.25rem 0;
-    text-align: center;
-    display: inline-block;
-
-    /* Allow clean wrapping */
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-
-    /* Gradient text */
-    background: linear-gradient(90deg, var(--sea-500) 0%, var(--palm) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-
-    /* Outline + subtle glow */
-    text-shadow:
-      0 0 3px rgba(0, 0, 0, 0.4),
-      0 2px 6px rgba(0, 0, 0, 0.3);
-
-    animation: bob 3.5s ease-in-out infinite;
-  }
-
-  .title-text {
-    -webkit-text-stroke: 0.5px white;
-  }
-
-  /* --- Info card --- */
-  .info {
-    width: 100%;
-    max-width: 1100px;
-    background: linear-gradient(
-      135deg,
-      var(--glass),
-      rgba(255, 255, 255, 0.55)
-    );
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: clamp(1.5rem, 4vw, 3rem);
-    border-radius: var(--radius-lg);
-    border: 2px solid var(--glass-border);
-    text-align: center;
-    margin-top: 1rem;
-    box-shadow: var(--shadow);
-    color: var(--ink);
-    font-family:
-      "Quicksand",
-      system-ui,
-      -apple-system,
-      Segoe UI,
-      Roboto,
-      sans-serif;
-    line-height: 1.8;
-  }
-
-  .info .lede {
-    font-size: clamp(1.1rem, 2.4vw, 1.35rem);
-    font-weight: 600;
-    margin: 0.5rem auto 0.5rem;
-    max-width: 70ch;
-  }
-
-  .info p {
-    margin: 0.5rem auto 0;
-    max-width: 78ch;
-  }
-
-  .info .dates {
-    font-family: "Pacifico", cursive;
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    color: var(--sun);
-    margin: 1rem 0 0.25rem;
-    text-shadow: 0 0 1px black;
-    font-weight: bold;
-  }
-
-  /* --- Highlights --- */
-  .highlights {
-    margin: 2rem auto 0; /* more spacing from the register button */
-    padding: 0;
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    max-width: 800px;
-  }
-
-  .highlight-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: var(--ink);
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid var(--glass-border);
-    padding: 0.5rem 0.75rem;
-    border-radius: 999px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    transition:
-      transform 0.15s ease,
-      background 0.15s ease;
-    min-width: 15rem;
-    width: fit-content;
-    margin: 0.25rem auto;
-  }
-
-  .highlight-button:hover {
-    transform: translateY(-1px);
-    background: rgba(255, 255, 255, 0.7);
-  }
-
-  .highlight-button:active {
-    transform: translateY(1px);
-  }
-
-  .highlight-button .icon {
-    width: 18px;
-    height: 18px;
-    color: var(--sea-500);
-  }
-
-  /* --- Motion --- */
-  @keyframes bob {
-    0%,
-    100% {
-      transform: translateY(0) rotate(-1deg);
-    }
-    50% {
-      transform: translateY(-4px) rotate(1deg);
-    }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    h1 {
-      animation: none;
-    }
-    .register {
-      transition: none;
-    }
-  }
-
-  /* --- Small tweaks for very narrow screens --- */
-  @media (max-width: 900px) {
-    .highlights {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
