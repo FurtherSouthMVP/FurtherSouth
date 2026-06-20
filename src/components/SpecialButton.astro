@@ -13,7 +13,7 @@ const { text, href } = Astro.props;
 
 <style>
   .register {
-    display: inline-block;
+    display: block;
     font-size: clamp(1.4rem, 3vw, 1.75rem); /* Bigger text */
     font-weight: 700;
     color: white;
@@ -30,8 +30,9 @@ const { text, href } = Astro.props;
     margin: 1.5rem auto;
     width: fit-content;
     text-decoration: none;
-    max-width: 20rem; /* Let it stretch more */
     display: block;
+    white-space: nowrap;
+    text-align: center;
   }
 
   .register:hover {
