@@ -36,11 +36,7 @@ const direction = side === "right" ? "sm:flex-row-reverse" : "sm:flex-row";
       style={`width:${width}px;height:auto;`}
     />
 
-    {credit && (
-      <p class="mt-1 text-center text-xs text-gray-500">
-        {credit}
-      </p>
-    )}
+    {credit && <p class="mt-1 text-center text-xs text-gray-500">{credit}</p>}
   </div>
 
   <div class="text-center [&>p]:my-0">
